@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-image: url("../img/fondo2.avif");
+    background-attachment:fixed;
+    position: relative;
+    padding-bottom: 3em;
+    min-height: 100vh;
+  }
+
+  header .navbarra {
+    background-color: rgba(170, 128, 115, 0.514);
+    margin-bottom: 15px;
+  }
+  header .navbarra a {
+    color: rgb(87, 56, 44);
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  header .navbarra a:hover {
+    background-color: rgb(112, 82, 57);
+    color: rgb(230, 181, 189);
+    transition: all 1s;
+  }
+    
+  .active {
+    text-transform: uppercase;
+  }
+
+  button{
+    background-color: rgb(250, 215, 234);
+    color: rgb(71, 44, 33);
+    padding: 5px;
+    border-radius: 6%;
+  }
+
+  h1 {
+    font-family: 'Lobster', cursive;
+    color: rgb(71, 44, 33);
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 3vmax;
+  }
+
+  input {
+    border-radius: 5%;
+    color: rgb(71, 44, 33);
+    background-color: rgb(250, 215, 234);
+    margin-left: 5%;
+    margin-bottom: 10px;
+  }
+
+  .cardProd {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(170, 128, 115, 0.514);
+    max-width: 400px;
+  }
+  .cardProd img:hover {
+    transform: scale(0.9, 0.9);
+    transition: 2s;
+    background-color: rgb(255, 211, 219);
+  }
+  
+  .cardProd h3,h4{
+    background-color: rgb(250, 215, 234);
+    color: rgb(71, 44, 33);
+    text-align: center;
+    margin-bottom: 0;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  .cardProd img{
+    border-radius: 2%;
+    border-style: dotted;
+    border-color: rgb(250, 215, 234);
+    width: 100%;
+  }
+  
+  .cardProd p{
+    background-color: rgba(250, 235, 215, 0.75);
+    color: rgb(71, 44, 33);
+    padding: 15px;
+    margin-top: 0;
+  }
+
+  .cardProd button{
+    margin-top: 10px;
+  }
+  .tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    align-content:space-between;
+  }
+
+  .chango{
+    background-color: rgb(236, 215, 219);
+  }
+
+footer {
+    background-color: rgba(170, 128, 115, 0.514);
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 3%;
+  }
+  footer ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  footer ul li a {
+    color: rgb(87, 56, 44);
+  }
+  footer ul li a:hover {
+    padding: 10px;
+    background-color: rgb(112, 82, 57);
+    color: rgb(230, 181, 189);
+    border-radius: 20%;
+    transition: all 2s;
+  }
